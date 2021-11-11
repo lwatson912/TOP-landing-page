@@ -1,0 +1,45 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header-container {
+    background: #1f2937;
+    display: flex;
+    flex: 1;
+}
+
+.header-logo {
+    font: white;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 24px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 100px;
+    gap: 24px;
+    font: #e5e7eb;
+    font-size: 18px;
+    list-style-type: none;
+    margin: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
