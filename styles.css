@@ -95,6 +95,7 @@ button {
     width: 200px;
     justify-content: center;
     align-items: center;
+    padding-bottom: 48px;
 }
 
 .text {
@@ -104,13 +105,43 @@ button {
     align-items: center;
 }
 
-.thor-container
+.thor-container {
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.thor-quote
+.thor-quote {
+    display: flex;
+    font: #1f2937; 
+    font-size: 36px;
+    font-style: italic;
+}
 
-.thor
+.thor-quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 944px;
+    padding: 48px;
+}
 
-.footer
+.thor {
+    display: flex;
+    color: #1f2937;
+    font-size: 24px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 18px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
 
 
 
